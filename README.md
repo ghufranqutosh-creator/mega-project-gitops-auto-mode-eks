@@ -88,7 +88,7 @@ graph LR
 
 1. **Install Prerequisites**: AWS CLI, Terraform, kubectl, Docker, Helm
 2. **Configure AWS**: `aws configure` with appropriate credentials
-3. **Clone Repository**: `git clone https://github.com/LondheShubham153/retail-store-sample-app.git`
+3. **Clone Repository**: `git clone https://github.com/ghufranqutosh-creator/mega-project-gitops-auto-mode-eks.git`
 4. **Deploy Infrastructure**: Run Terraform in two phases (see [Getting Started](#getting-started))
 5. **Access Application**: Get load balancer URL and browse the retail store
 
@@ -155,7 +155,7 @@ helm version
 ### **Step 1: Clone Repository**
 
 ```bash
-git clone https://github.com/LondheShubham153/retail-store-sample-app.git
+git clone https://github.com/ghufranqutosh-creator/mega-project-gitops-auto-mode-eks.git
 cd retail-store-sample-app
 git checkout gitops
 ```
@@ -465,7 +465,7 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](./LICE
 
 ## Support
 
-- **Issues**: [GitHub Issues](https://github.com/LondheShubham153/retail-store-sample-app/issues)
+- **Issues**: [GitHub Issues](https://github.com/ghufranqutosh-creator/mega-project-gitops-auto-mode-eks/issues)
 - **Discord**: [TrainWithShubhamCommunity](https://discord.gg/kGEr9mR5gT)
 
 ---
