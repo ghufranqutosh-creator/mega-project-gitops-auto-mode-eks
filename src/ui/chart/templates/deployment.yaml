@@ -71,6 +71,8 @@ spec:
               path: /actuator/health/readiness
               port: 8080
             initialDelaySeconds: 10
+            periodSeconds: 15
+            failureThreshold: 3
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
           volumeMounts:

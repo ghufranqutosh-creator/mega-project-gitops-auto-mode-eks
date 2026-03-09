@@ -1,0 +1,85 @@
+ 1762  cd terraform/
+ 1763  terraform init
+ 1764  terraform plan
+ 1765  terraform apply
+ 1766  terraform apply -target=module.vpc
+ 1767  terraform apply -target=module.retail_app_eks
+ 1768  aws eks update-kubeconfig --region us-west-2 --name retail-store-a1n4
+ 1769  kubectl create ns demo-nginx
+ 1770  kubectl run nginx --image=nginx --port=80 -n demo-nginx
+ 1771  kubectl get pods -n demo-nginx
+ 1772  terraform apply
+ 1773  helm repo list
+ 1774  helm repo add jetstack https://charts.jetstack.io
+ 1775  helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
+ 1776  helm repo update
+ 1777  helm repo list
+ 1778  terraform apply
+ 1779  kubectl get nodes
+ 1780  kubectl get pods -n argocd
+ 1781  kubectl get secret argocd-initial-admin-secret -n argocd -o jsonpath="{.data.password}" | base64 --decode
+ 1782  terraform apply
+ 1783  kubectl get svc -n ingress-nginx ingress-nginx-controller -o jsonpath='{.status.loadBalancer.ingress[0].hostname}'
+ 1784  kubectl get svc -n ingress-nginx
+ 1785  kubectl get pods -n retail-store
+ 1786  kubectl describe pod retail-store-ui-67885d6cfd-m9wzh -n retail-store
+ 1787  kubectl taint nodes i-019d37b0e2efb39b3 karpenter.sh/disrupted:NoSchedule-
+ 1788  kubectl get pods -n retail-store
+ 1789  cd ..
+ 1790  cd src/
+ 1791  q
+ 1792  sudo snap install q
+ 1793  sudo apt  install python3-q-text-as-data 
+ 1794  q
+ 1795  sudo snap install q
+ 1796  q
+ 1797  cd'/home/ghufran/Desktop/Owner avatar
+ 1798  retail-store-sample-app/retail-store-sample-app/terraform'
+ 1799  cd'/home/ghufran/Desktop/Owner avatar
+ 1800  retail-store-sample-app/retail-store-sample-app/terraform'
+ 1801  cd'/home/ghufran/Desktop/Owner avatar
+ 1802  retail-store-sample-app/retail-store-sample-app/terraform
+ 1803  cd ..
+ 1804  cd terraform/
+ 1805  terraform output
+ 1806  kubectl port-forward svc/argocd-server -n argocd 8080:443"
+ 1807  kubectl port-forward svc/argocd-server -n argocd 8080:443
+ 1808  kubectl get secret argocd-initial-admin-secret -n argocd -o jsonpath="{.data.password}" | base64 --decode
+ 1809  git init
+ 1810  rm -rf .git
+ 1811  ls
+ 1812  git init
+ 1813  git config --list
+ 1814  git add .
+ 1815  git commit -m "Initial commit - retail store GitOps project"
+ 1816  git remote add origin https://github.com/ghufranqutosh-creator/mega-project-gitops-auto-mode-eks.git
+ 1817  git branch -M main
+ 1818  git push -u origin main
+ 1819  ls
+ 1820  cd retail-store-sample-app/
+ 1821  ls
+ 1822  git remote add origin https://github.com/ghufranqutosh-creator/mega-project-gitops-auto-mode-eks.git
+ 1823  git branch -M main
+ 1824  git push -u origin main
+ 1825  git remote remove origin
+ 1826  git remote -v
+ 1827  git remote add origin https://github.com/ghufranqutosh-creator/mega-project-gitops-auto-mode-eks.git
+ 1828  git branch -M gitops
+ 1829  git push -u origin gitops
+ 1830  git config --unset-all branch.gitops.remote
+ 1831  git config --unset-all branch.gitops.merge
+ 1832  git branch --set-upstream-to=origin/gitops gitops
+ 1833  git status
+ 1834  git add .
+ 1835  git commit -m"add azeem"
+ 1836  git push origin main
+ 1837  git push origin gitops
+ 1838  cd terraform/
+ 1839  terraform outputs
+ 1840  terraform output
+ 1841  kubectl port-forward svc/argocd-server -n argocd 8080:443
+ 1842  cd terraform/
+ 1843  terraform init
+ 1844  terraform plan
+ 1845  terraform init
+ 1846  terraform apply
